@@ -6,7 +6,7 @@
 using namespace std;
 
 /*  Solution with Set !
-    Complexity O(n) + O(1) = O(n)
+    Complexity O(nlog(n))
     145ms & 74MB    
 */ 
 class Solution1 {
@@ -18,7 +18,7 @@ public:
 
 
 /*  Solution with Sorting !
-    Complexity O(n)
+    Complexity O(n*log(n))
     94ms & 57.9MB ---> best overall solution timewise
 */ 
 class Solution {
